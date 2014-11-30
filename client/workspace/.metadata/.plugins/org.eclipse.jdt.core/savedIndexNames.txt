@@ -1,5 +1,0 @@
-INDEX VERSION 1.126+C:\appdevelopment\contact-i-mps\client\workspace\.metadata\.plugins\org.eclipse.jdt.core
-1284074322.index
-4075883620.index
-3277698869.index
-353238056.index
