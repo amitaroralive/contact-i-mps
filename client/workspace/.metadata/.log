@@ -1,0 +1,442 @@
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:03.416
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:03.426
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:04.327
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:04.341
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:05.583
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:05.590
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:08.138
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:08.146
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:10.418
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:10.426
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:12.627
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\PhoneRaj\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-11-30 10:45:12.636
+!MESSAGE Unable to read C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: File not found: C:\appdevelopment\contact-i-mps\client\workspace\appcompat_v7\AndroidManifest.xml.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:783)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2014-11-30 10:52:54.100
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2014-11-30 10:52:54.117
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2014-11-30 10:52:54.117
+!MESSAGE Could not write workspace metadata 'C:/appdevelopment/contact-i-mps/client/workspace/.metadata/.plugins/org.eclipse.core.resources/.root/9.tree'.
+!STACK 0
+java.io.FileNotFoundException: C:\appdevelopment\contact-i-mps\client\workspace\.metadata\.plugins\org.eclipse.core.resources\.root\9.tree (The system cannot find the path specified)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:51)
+	at org.eclipse.core.internal.resources.SaveManager.saveTree(SaveManager.java:1350)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1134)
+	at org.eclipse.core.internal.resources.Workspace.save(Workspace.java:2375)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(IDEWorkbenchAdvisor.java:508)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY org.eclipse.ui 2 2 2014-11-30 10:52:54.327
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
